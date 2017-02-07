@@ -1,0 +1,126 @@
+div.polaroid {
+  width: 16%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 0px;
+}
+
+h1,ul, body, html {
+margin: 0;
+padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: pink;
+}
+
+div.container {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.coluna {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    column-gap: 40px;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    width: 100%;
+    text-align: center;
+    height: 400px
+
+}
+
+.coluna2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+}
+
+.pai {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.pai2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 550px;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+.pai2 p{
+    font-size: 20px;
+}
+
+.pai3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 550px;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+.pai3 p{
+font-size: 20px;
+
+}
+
+.pai4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.pai5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 550px;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+.pai5 p{
+font-family:courier;
+font-size:20px;
+}
+
+
+
+.pai6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+}
+
+h1 {color:#4CAF50};
+p {font-size:300px;}
+
+
+
+   
