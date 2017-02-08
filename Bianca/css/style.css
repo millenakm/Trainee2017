@@ -10,18 +10,6 @@ div.container {
   padding: 10px 20px;
 }
 
-.coluna {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    column-gap: 40px;
-    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
-}
-
-.coluna2 {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
-}
 
 .pai {
     margin-top: 50px;
@@ -31,53 +19,44 @@ div.container {
 }
 
 .pai2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0;
     background-color: lightgrey;
     width: 550px;
-    border: 10px solid green;
+    border: 5px solid green;
     padding: 25px;
     margin: 25px;
 }
 
 .pai3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0;
     background-color: lightgrey;
     width: 550px;
-    border: 10px solid green;
+    border: 5px solid green;
     padding: 25px;
     margin: 25px;
 }
 
 .pai4 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0;
+}
+
+.pai3 p, .pai2 p, .pai5 p{
+    font-size: 20px;
+    font-family: courier;
 }
 
 .pai5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0;
     background-color: lightgrey;
     width: 550px;
-    border: 10px solid green;
+    border: 5px solid green;
     padding: 25px;
     margin: 25px;
+
 }
 
 .pai6 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0;
 }
 
 .center {
@@ -88,7 +67,12 @@ div.container {
 }
 
 h1 {color:#4CAF50};
-p {font-size:300%;}
+
+p {
+    font-size:300%;
+    font-family: courier;
+}
+
 
 
 
